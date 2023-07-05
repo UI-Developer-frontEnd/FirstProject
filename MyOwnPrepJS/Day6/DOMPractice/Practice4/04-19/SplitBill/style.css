@@ -1,0 +1,42 @@
+.mainContainer{
+    border: 2px solid black;
+    padding: 10px;
+    width:300px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subContainer div{
+    margin-bottom: 10px;
+}
+.subContainer input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.988);
+    border-radius: 6px;
+}
+.subContainer button{
+    padding: 8px 40px;
+    background-color: rgba(0, 0, 0, 0.995);
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.subContainer button:hover{
+    background-color: bisque;
+    color: black;
+    transition: .6s;
+    font-weight: 600;
+}

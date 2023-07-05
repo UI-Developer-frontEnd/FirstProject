@@ -1,0 +1,1 @@
+// Write a program that takes an array of objects containing name and date properties and sorts the array in descending order by date.

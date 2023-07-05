@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 240, 240);
+}
+.nav-list ul{
+    display: flex;
+    gap:15px;
+}.nav-list ul li{
+    list-style-type: none;
+    color: blue;
+}
+.nav-list ul li:nth-child(1){
+    color: brown;
+}
+.nav-list{
+    /* background-color: black; */
+}

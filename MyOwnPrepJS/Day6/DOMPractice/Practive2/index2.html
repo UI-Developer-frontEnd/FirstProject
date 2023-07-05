@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="motoBikes">
+        <option value="select">Select</option>
+        <option value="bajaj">Bajaj</option>
+        <option value="RE">Royal Enfield</option>
+        <option value="ktm">KTM</option>
+        <option value="Tri">Triumph</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="selectIn()">Click Here</button>
+    <script>
+        function selectIn(){
+        var motobike = document.getElementById("motoBikes");
+        alert(motobike.options[motobike.selectedIndex].value)
+    }
+    </script>
+</body>
+</html>

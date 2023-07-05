@@ -1,0 +1,75 @@
+.main-container{
+    border: 1px solid black;
+    width:fit-content;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    padding: 10px 40px;
+    /* margin-bottom: 100px; */
+    padding-bottom: 30px;
+    background-color: #758283;
+    border-radius: 8px;
+    border: none;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    color: #fff;
+}
+.nameDiv{
+    display: flex;
+    gap: 10px;
+    margin-bottom: -30px;
+}
+.fname{
+    position: relative;
+    margin-left: 30px;
+}
+.para{
+    position: relative;
+    top: -14px;
+}
+.gender{
+    display: flex;
+    /* gap: 10px; */
+}
+.gend{
+    display: flex;
+    margin-left: 30px;
+    gap: 4px;
+}
+.email{
+    margin-left: 40px;
+}
+.mobi{
+    margin-left: 12px;
+}
+.Email,.mob{
+    margin-bottom: 20px;
+}
+.res input{
+    margin-left: 28px;
+    margin-bottom: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    padding: 8px 40px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;;
+    background-color: #1FAA59;
+}
+input{
+    border: none;
+    padding: 4px 0px 4px 0px;
+    border-radius: 4px;
+    width: 250px;
+}
+.gend input{
+    width: fit-content;
+}

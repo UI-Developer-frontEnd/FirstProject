@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="uname" placeholder="Enter your name" required><br>
+    <input type="password" id="passw" placeholder="Enter your password"><br>
+    <button id="sub-btn" onclick="clicking()">Submit</button>
+</body>
+<script>
+    function clicking(){
+        var userName = document.getElementById('uname').value;
+        var upassword = document.getElementById('passw').value;
+        if(userName == upassword){
+            alert('you have entered same value in user name and password !!')
+        }
+        else{
+            alert('successfully submitted')
+        }
+    }
+</script>
+</html>

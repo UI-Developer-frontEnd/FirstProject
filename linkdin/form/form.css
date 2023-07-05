@@ -1,0 +1,41 @@
+body{
+    background-image: url(/practice/pexels-gabriel-peter-696680.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    border: 1px solid black;
+    width: 148px;
+    padding: 20px 80px 40px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    border-radius: 12px;
+    background-color: black;
+    opacity: 85%;
+}
+.heading h2{
+    color: #ffff;
+    text-transform: uppercase;
+}
+input{
+    padding: 8px;
+    width: 200px;
+    border-radius: 8px;
+}
+button{
+    padding: 6px 20px;
+    border-radius: 16px;
+    border: none;
+    background-color: #1C8D73;
+    color: #ffff;
+}
+button:hover{
+    background-color: #22CB5C;
+    transition: .8s;
+    
+}
