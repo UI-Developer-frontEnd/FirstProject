@@ -40,8 +40,7 @@ function validPassword(){debugger;
         document.getElementById("uPassErr").innerHTML = "Enter a valid password";
         document.getElementById("uPassErr").classList.add("inputError");
         document.getElementById("uPassword").classList.add("inputFieldsWrong");
-        document.getElementById("uPassword").classList.remove("inputFieldCorr")
-
+        document.getElementById("uPassword").classList.remove("inputFieldCorr");
 
     }
 }
